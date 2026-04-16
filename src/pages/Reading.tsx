@@ -1,6 +1,6 @@
 import { BOOKS } from "../data/articles";
 
-const SECTIONS = ["Currently Reading", "Recently Finished", "Favourites"] as const;
+const SECTIONS = ["Currently Reading", "Recently Finished", "Favorites"] as const;
 
 export default function Reading() {
   return (
