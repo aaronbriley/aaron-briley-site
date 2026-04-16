@@ -101,7 +101,7 @@ export default function About() {
                   marginBottom: "20px",
                 }}
               >
-                I'm Aaron Briley — a writer and founder interested in the intersection of ideas, technology, and human flourishing. I founded{" "}
+                Hello! I'm Aaron — a writer and founder interested in the intersection of ideas, technology, and live events. I founded{" "}
                 <a
                   href="https://colloquia.live"
                   target="_blank"
@@ -133,7 +133,7 @@ export default function About() {
                   marginBottom: "20px",
                 }}
               >
-                My essays explore philosophy of mind, the nature of knowledge, the character of technological change, and what it might mean to live an examined life in an age of distraction. I read slowly, think even more slowly, and try to write only when I have something to say rather than something to perform.
+                My essays explore moral philosophy, the nature of lived experience, challenges of the human condition, and what it might mean to live an examined life in an age of distraction. I read slowly, think even more slowly, and try to write only when I have something to say rather than something to perform.
               </p>
 
               <p
