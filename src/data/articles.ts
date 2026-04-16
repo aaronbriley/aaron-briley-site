@@ -57,17 +57,17 @@ export const CATEGORIES: Category[] = [
 export interface Book {
   title: string;
   author: string;
-  section: "Currently Reading" | "Recently Finished" | "Favourites";
+  section: "Currently Reading" | "Recently Finished" | "Favorites";
 }
 
 export const BOOKS: Book[] = [
-  { title: "The Death of Ivan Ilyich", author: "Leo Tolstoy", section: "Currently Reading" },
-  { title: "Gödel, Escher, Bach", author: "Douglas Hofstadter", section: "Currently Reading" },
-  { title: "The Revolt of the Public", author: "Martin Gurri", section: "Currently Reading" },
-  { title: "The Structure of Scientific Revolutions", author: "Thomas Kuhn", section: "Recently Finished" },
-  { title: "Permutation City", author: "Greg Egan", section: "Recently Finished" },
-  { title: "Middlemarch", author: "George Eliot", section: "Recently Finished" },
-  { title: "The Brothers Karamazov", author: "Fyodor Dostoevsky", section: "Favourites" },
-  { title: "Thinking, Fast and Slow", author: "Daniel Kahneman", section: "Favourites" },
-  { title: "Infinite Jest", author: "David Foster Wallace", section: "Favourites" },
+  { title: "Blood Meridian", author: "Cormac McCarthy", section: "Currently Reading" },
+  { title: "Nietzsche: Philosopher Psychologist Antichrist", author: "Walter Kaufmann", section: "Currently Reading" },
+  { title: "Existentialism: A Very Short Introduction", author: "Thomas R. Flynn", section: "Currently Reading" },
+  { title: "Tenth of December", author: "George Saunders", section: "Recently Finished" },
+  { title: "Irrational Man", author: "William Barrett", section: "Recently Finished" },
+  { title: "The New Patricians: An Essay on Values and Consciousness", author: "RWK Paterson", section: "Recently Finished" },
+  { title: "The Brothers Karamazov", author: "Fyodor Dostoevsky", section: "Favorites" },
+  { title: "Thinking, Fast and Slow", author: "Daniel Kahneman", section: "Favorites" },
+  { title: "Infinite Jest", author: "David Foster Wallace", section: "Favorites" },
 ];
