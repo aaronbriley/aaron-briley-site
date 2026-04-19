@@ -14,31 +14,19 @@
           >
             {/* Avatar */}
             <div>
-              <div
-                style={{
-                  width: "160px",
-                  height: "160px",
-                  background: "var(--color-surface)",
-                  border: "0.5px solid var(--color-border)",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  marginBottom: "20px",
-                }}
-              >
-                <span
-                  style={{
-                    fontFamily: "var(--font-serif)",
-                    fontSize: "44px",
-                    fontWeight: 700,
-                    color: "var(--color-text-tertiary)",
-                    letterSpacing: "-0.03em",
-                    userSelect: "none",
-                  }}
-                >
-                  AB
-                </span>
-              </div>
+             <img
+  src="/avatar.png"
+  alt="Aaron Briley"
+  style={{
+    width: "160px",
+    height: "160px",
+    objectFit: "cover",
+    borderRadius: "12px",
+    border: "0.5px solid var(--color-border)",
+    display: "block",
+    marginBottom: "20px",
+  }}
+/>
 
               <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
                 {[
