@@ -42,8 +42,8 @@
 
               <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
                 {[
-                  { label: "Twitter / X", href: "https://twitter.com" },
-                  { label: "LinkedIn", href: "https://linkedin.com" },
+                  { label: "Twitter / X", href: "https://twitter.com/aaronbriley" },
+                  { label: "LinkedIn", href: "https://linkedin.com/in/aaron-briley-philos/" },
                   { label: "Colloquia.live ↗", href: "https://colloquia.live" },
                   { label: "Email", href: "mailto:aaron@aaronbriley.com" },
                 ].map((link) => (
