@@ -10,29 +10,9 @@ import About from "@/pages/About";
 
 function NotFound() {
   return (
-    <div
-      style={{
-        minHeight: "60vh",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        flexDirection: "column",
-        gap: "16px",
-      }}
-    >
-      <h1
-        style={{
-          fontFamily: "var(--font-serif)",
-          fontSize: "48px",
-          fontWeight: 700,
-          color: "var(--color-text-tertiary)",
-        }}
-      >
-        404
-      </h1>
-      <p style={{ fontFamily: "var(--font-sans)", color: "var(--color-text-secondary)" }}>
-        Page not found.
-      </p>
+    <div style={{ minHeight: "60vh", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", gap: "16px" }}>
+      <h1 style={{ fontFamily: "var(--font-serif)", fontSize: "48px", fontWeight: 700, color: "var(--color-text-tertiary)" }}>404</h1>
+      <p style={{ fontFamily: "var(--font-sans)", color: "var(--color-text-secondary)" }}>Page not found.</p>
     </div>
   );
 }
@@ -50,7 +30,6 @@ function AppRoutes() {
           <Route path="/reading" element={<Reading />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<NotFound />} />
-          <Route path="/reading" element={<Navigate to="https://www.goodreads.com/aaronbriley" replace />} />
         </Routes>
       </div>
       <Footer />
