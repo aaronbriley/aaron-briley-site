@@ -50,6 +50,7 @@ function AppRoutes() {
           <Route path="/reading" element={<Reading />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="/reading" element={<Navigate to="https://www.goodreads.com/aaronbriley" replace />} />
         </Routes>
       </div>
       <Footer />
